@@ -27,7 +27,7 @@ const Display = ({ displayInput }) => {
   checkThreeConsecutive(displayInput);
 
   return (
-    <div className="border border-gray-400 rounded py-2 mx-2">
+    <div id="outputString" className="border border-gray-400 rounded py-2 mx-2">
       {displayInput.length === 0 ? "Type something" : displayInput}
     </div>
   );
